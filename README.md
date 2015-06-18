@@ -13,7 +13,7 @@ Since everything you push to `master` will be applied to our production Jenkins 
 1. spin up a local VM with [our Jenkins server](https://github.com/Zuehlke/cookbooks-jenkins-simple-app): `vagrant up`
 1. go to http://localhost:8080
 1. add a new freestyle job [with a "Process Job DSL" builder](https://github.com/jenkinsci/job-dsl-plugin/wiki/Tutorial---Using-the-Jenkins-Job-DSL)
-1. test your job definition there (see [Job DSL Commands](https://github.com/jenkinsci/job-dsl-plugin/wiki/Job-DSL-Commands))
+1. create and test your job definition there (see [Job DSL Commands](https://github.com/jenkinsci/job-dsl-plugin/wiki/Job-DSL-Commands) and [Job reference](https://github.com/jenkinsci/job-dsl-plugin/wiki/Job-reference))
 1. push your feature branch, e.g. `git push -u origin feature/add-xyz-job`
 1. create a [pull request](https://github.com/CatCalZone/jenkins-jobs/pulls) for easier peer review with your mates
 1. merge the pull request
